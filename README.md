@@ -1,13 +1,13 @@
 # Programming Assignment 2: Lexical Scoping
 
-## For the Coursera course "R Programming""
+## For the Coursera course "R Programming"
 
 The following code demonstrates how to use the `cachematrix.R` R script.
 Lines starting with \# are simple comments
 Lines starting with `>` are things printed in the output.
- > source("cachematrix.R")    \#load R program
- > a <- makeCacheMatrix() \#create functions
- > a$set(diag(7,3))       \#create matrix in working environment
+`>` source("cachematrix.R")    \#load R program 
+`>` a <- makeCacheMatrix() \#create function s
+`>` a$set(diag(7,3))       \#create matrix in working environment 
 \#OR create matrix another way: a <- makeCacheMatrix(matrix(c(7,0,0,0,7,0,0,0,7), nrow = 3, ncol =3))
 
  > a$get()                \#look at matrix
